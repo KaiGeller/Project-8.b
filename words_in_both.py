@@ -11,5 +11,5 @@ def words_in_both(sentence,sentence_2):
     common_words={}
     for word in words:
         if word in words_2:
-            common_words.append(word)
+            common_words.add(word)
     return common_words
